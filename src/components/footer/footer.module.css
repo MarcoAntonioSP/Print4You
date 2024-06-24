@@ -1,8 +1,9 @@
 .footer {
+  bottom: 0;
   background-color: #f5f5f5; /* Cor de fundo suave */
   padding: 40px 0;
   width: 100%;
-  border-top: 1px solid #ddd; /* Linha divisória discreta */
+  border-top: 1px solid #ccb116; /* Linha divisória discreta */
   display: flex;
   justify-content: center; /* Centralizar conteúdo */
 }

@@ -1,9 +1,9 @@
-.header {
+.headerContainer {
   width: 100%;
   border-bottom: 1px solid rgba(0, 0, 0, 0.486);
 }
 
-.contactBar {
+.contactInformation {
   background-color: #37d37d;
   color: rgb(255, 255, 255);
   display: flex;
@@ -21,13 +21,21 @@
 .logo {
   width: 100px; /* Ajuste o tamanho da logo conforme necessário */
 }
+.searchInput {
+  text-align: center;
+  box-shadow: 1px 1px 1px #27191957;
+  width: 450px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid #2b22226c;
+}
 
-.navHeader {
+.navigation {
   display: flex;
   justify-content: space-between;
 }
 
-.navHeader a {
+.navigation a {
   margin-right: 20px; /* Ajuste o espaçamento entre os itens do menu */
   color: black;
   text-decoration: none;
