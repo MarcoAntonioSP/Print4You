@@ -2,12 +2,12 @@ import styles from "./header.module.css";
 
 function Header() {
   return (
-    <header className={styles.headerContainer}>
-      <div className={styles.contactInformation}>
+    <header className={styles.headercontainer}>
+      <div className={styles.contactinformation}>
         <span>Contato: (XX) XXXX-XXXX</span>
         <span>Telefone: (XX) XXXX-XXXX</span>
       </div>
-      <div className={styles.headerContent}>
+      <div className={styles.headercontent}>
         <img
           src="https://i.ibb.co/pnWyRgW/OIG2-XYH-removebg-preview.png"
           alt="OIG2-XYH"
@@ -16,7 +16,7 @@ function Header() {
           className={styles.logo}
         />
         <input
-          className={styles.searchInput}
+          className={styles.searchinput}
           type="text"
           placeholder="digite aqui oque procura"
         />

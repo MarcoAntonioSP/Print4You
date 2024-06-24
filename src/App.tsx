@@ -8,8 +8,6 @@ import Prontaentrega from "./components/prontaentrega";
 import Categorias from "./components/categorias";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <Header />
