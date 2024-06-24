@@ -11,8 +11,6 @@ function Header() {
         <img
           src="https://i.ibb.co/pnWyRgW/OIG2-XYH-removebg-preview.png"
           alt="OIG2-XYH"
-          border="0"
-          alt="logohome"
           className={styles.logo}
         />
         <input
