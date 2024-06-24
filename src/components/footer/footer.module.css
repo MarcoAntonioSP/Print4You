@@ -1,0 +1,89 @@
+.footer {
+  background-color: #f5f5f5; /* Cor de fundo suave */
+  padding: 40px 0;
+  width: 100%;
+  border-top: 1px solid #ddd; /* Linha divisória discreta */
+  display: flex;
+  justify-content: center; /* Centralizar conteúdo */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.contact,
+.links,
+.social,
+.copyright {
+  text-align: center;
+}
+
+h3 {
+  color: #333; /* Cor do título */
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 14px;
+  color: #555; /* Cor do texto */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+a {
+  color: #555;
+  text-decoration: none;
+  transition: color 0.3s ease; /* Transição suave na cor */
+}
+
+a:hover {
+  color: #333;
+}
+
+.social ul li a {
+  display: inline-block;
+  padding: 8px;
+  border-radius: 50%; /* Ícones circulares */
+  background-color: #fff; /* Fundo branco */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+.social ul li a:hover {
+  background-color: #333; /* Cor de fundo ao passar o mouse */
+  color: #fff; /* Texto branco */
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Conteúdo em coluna para telas menores */
+    align-items: flex-start;
+  }
+
+  .contact,
+  .links,
+  .social,
+  .copyright {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+}
