@@ -8,7 +8,13 @@ function Header() {
         <span>Telefone: (XX) XXXX-XXXX</span>
       </div>
       <div className={styles.headerContent}>
-        <img src="#" alt="logohome" className={styles.logo} />
+        <img
+          src="https://i.ibb.co/pnWyRgW/OIG2-XYH-removebg-preview.png"
+          alt="OIG2-XYH"
+          border="0"
+          alt="logohome"
+          className={styles.logo}
+        />
         <input
           className={styles.searchInput}
           type="text"

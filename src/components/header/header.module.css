@@ -1,10 +1,12 @@
 .headerContainer {
+  background-color: #ffffff;
   width: 100%;
   border-bottom: 1px solid rgba(0, 0, 0, 0.486);
+  box-shadow: 1px 1px 1px 1px #3a000057;
 }
 
 .contactInformation {
-  background-color: #37d37d;
+  background-color: #000000;
   color: rgb(255, 255, 255);
   display: flex;
   justify-content: space-around;
@@ -19,7 +21,8 @@
 }
 
 .logo {
-  width: 100px; /* Ajuste o tamanho da logo conforme necessário */
+  width: 100px;
+  border-radius: 50px;
 }
 .searchInput {
   text-align: center;
@@ -36,7 +39,7 @@
 }
 
 .navigation a {
-  margin-right: 20px; /* Ajuste o espaçamento entre os itens do menu */
-  color: black;
+  color: rgb(0, 0, 0);
+  margin-right: 20px;
   text-decoration: none;
 }

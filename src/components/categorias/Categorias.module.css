@@ -1,6 +1,7 @@
 .categorias {
-  background-color: yellow;
+  background-color: #03ccc6ff;
   width: 100%;
+  box-shadow: 1px 1px 1px 1px #27191947;
 }
 
 .navcategorias {

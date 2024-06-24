@@ -3,7 +3,11 @@ import styles from "./Carrocel.module.css";
 function Carrocel() {
   return (
     <div className={styles.carrocel}>
-      <h1>carrocel</h1>
+      <img
+        className={styles.imgbannerum}
+        src="https://cdn.bemcolar.com/media/slideshow/full-banner-quadros-decorativos1280x393.jpg"
+        alt="imagembannerquadros"
+      />
     </div>
   );
 }
