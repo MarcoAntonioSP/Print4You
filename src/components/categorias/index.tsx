@@ -4,9 +4,9 @@ function Categorias() {
   return (
     <div className={styles.categorias}>
       <nav className={styles.navcategorias}>
-        <a href="#">Quadros Metalicos</a>
+        <a href="#">Quadros</a>
         <a href="#">Canecas</a>
-        <a href="#">Velas Aromáticas</a>
+        <a href="#">Camisas</a>
         <a href="#">Escolhendo</a>
       </nav>
     </div>
